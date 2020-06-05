@@ -38,5 +38,5 @@ https://katelynsumimoto.github.io/
 - Github overview
 - Markdown language for README files
 - JavaScript ES6+ features
-- How to use the terminal
+- How to use the terminal.
 - 281 Website: https://pages.uoregon.edu/ksumimot/281/

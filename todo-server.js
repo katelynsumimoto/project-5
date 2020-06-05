@@ -74,7 +74,7 @@ app.get('/gettodo/:data', (req, res, next) => {
 });
 
 
-//Endpoint to add a comment
+//Endpoint to add a todo
 app.post('/addtodo', (req, res) => {
   // Insert a single document
   let todo = {

@@ -52,7 +52,7 @@ let controller = function() {
   });
 };
 
-let deleteTodo = () => {
+let deleteToDo = () => {
   //delete a comment from db
   let content = $("#deleteOne").val();
   $.ajax({
@@ -98,7 +98,7 @@ $(document).ready(() => {
   btn03 = document.querySelectorAll('button')[3];
   btn03.addEventListener('click', deleteAll);
   btn02 = document.querySelectorAll('button')[2];
-  btn02.addEventListener('click', deleteTodo);
+  btn02.addEventListener('click', deleteToDo);
   btn01 = document.querySelectorAll('button')[1];
   btn01.addEventListener('click', getToDo);
   controller();
